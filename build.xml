@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="war" name="ChotaCredit">
+	<property name="debuglevel" value="source,lines,vars" />
+	<property name="target" value="1.6" />
+	<property name="source" value="1.6" />
+	<path id="Web App Libraries.libraryclasspath" />
+	<path id="EAR Libraries.libraryclasspath" />
+	<property name="dist.dir" location="../DIST" />
+	<property name="web.dir" location="WebContent" />
+	<property name="web.lib.dir" location="jars" />
+	<property name="build.number" value="1" />
+	<property name="major-version-number" value="1" />
+	<tstamp prefix="build-info">
+		<format property="current-date" pattern="d-MMMM-yyyy" locale="en" />
+		<format property="current-time" pattern="hh:mm:ss a z" locale="en" />
+		<format property="year-month-day" pattern="yyyy-MM-dd" locale="en" />
+	</tstamp>
+	<!--<path id="CGSDPOM.classpath">
+		<pathelement location="WebContent/WEB-INF/classes" />
+		<path refid="Web App Libraries.libraryclasspath" />
+		<path refid="EAR Libraries.libraryclasspath" />
+		<pathelement location="../lib/rbt/logback-classic-1.1.2.jar" />
+		<pathelement location="../lib/rbt/logback-core-1.1.2.jar" />
+		<pathelement location="../lib/rbt/ojdbc14-1.0.jar" />
+		<pathelement location="../lib/rbt/slf4j-api-1.7.7.jar" />
+		<pathelement location="../lib/rbt/j2ee.jar" />
+		<pathelement location="../DIST/CommonUtil.jar" />
+
+	</path> -->
+	<path id="compile.classpath">
+		<fileset dir="WebContent/WEB-INF/lib">
+			<include name="*.jar" />
+			
+		</fileset>
+	</path>
+	<target name="init" depends="clean">
+		<mkdir dir="WebContent/WEB-INF/classes" />
+		<copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
+			<fileset dir="src" excludes="**/*.launch, **/*.java" />
+		</copy>
+		<!-- <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
+            <fileset dir=".apt_generated" excludes="**/*.launch, **/*.java"/>
+        </copy>-->
+	</target>
+	<target name="clean">
+		<delete dir="WebContent/WEB-INF/classes" />
+	</target>
+	<target depends="build-project" name="build" />
+	<target depends="init" name="build-project">
+		<echo message="${ant.project.name}: ${ant.file}" />
+		<javac debug="true" debuglevel="${debuglevel}" destdir="WebContent/WEB-INF/classes" source="${source}" target="${target}">
+			<src path="src" />
+			<classpath refid="compile.classpath" />
+		</javac>
+		<!--<javac debug="true" debuglevel="${debuglevel}" destdir="WebContent/WEB-INF/classes" source="${source}" target="${target}">
+			<src path=".apt_generated" />
+			<classpath refid="CGSDPOM.classpath" />
+		</javac>-->
+	</target>
+
+	<target name="war" depends="build">
+		<property name="version-number" value="${major-version-number}.${build.number}" />
+		<war destfile="${dist.dir}/${ant.project.name}.war" webxml="${web.dir}/WEB-INF/web.xml">
+			<fileset dir="${web.dir}" />
+			<manifest>
+				<attribute name="Built-On" value="${build-info.current-date}" />
+				<attribute name="Built-At" value="${build-info.current-time}" />
+				<attribute name="Implementation-Version" value="${version-number}" />
+			</manifest>
+		</war>
+	</target>
+
+</project>

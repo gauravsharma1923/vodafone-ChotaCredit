@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>ChotaCredit</servlet-name>
+    <servlet-class>chotacredit.ChotaCredit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChotaCredit</servlet-name>
+    <url-pattern>/ChotaCredit</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CreditEligibility</servlet-name>
+    <servlet-class>credit_eligibility.CreditEligibility</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreditEligibility</servlet-name>
+    <url-pattern>/CreditEligibility</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>NonSegmentedChotaCredit</servlet-name>
+    <servlet-class>chotacredit_nonsegment.ChotaCreditNonSeg</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NonSegmentedChotaCredit</servlet-name>
+    <url-pattern>/NonSegmentedChotaCredit</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ChotaCredit">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="geronimo-annotation_1.0_spec-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/geronimo-annotation_1.0_spec-1.1/geronimo-annotation_1.0_spec-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-saaj_1.3_spec-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/geronimo-saaj_1.3_spec-1.0.1/geronimo-saaj_1.3_spec-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jettison-1.0-RC2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jettison-1.0-RC2/jettison-1.0-RC2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.2/commons-fileupload-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore-4.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore-4.0/httpcore-4.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jalopy-1.5rc3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jalopy-1.5rc3/jalopy-1.5rc3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axiom-api-1.2.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axiom-api-1.2.13/axiom-api-1.2.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-jta_1.1_spec-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/geronimo-jta_1.1_spec-1.1/geronimo-jta_1.1_spec-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-instrument-4.2.5.RELEASE/spring-instrument-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="apache-mime4j-core-0.7.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/apache-mime4j-core-0.7.2/apache-mime4j-core-0.7.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlbeans-2.3.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xmlbeans-2.3.0/xmlbeans-2.3.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-xmlbeans-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-xmlbeans-1.6.2/axis2-xmlbeans-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tribes-6.0.16.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tribes-6.0.16/tribes-6.0.16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="CREDITELIGIBILITY-test-client.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/CREDITELIGIBILITY-test-client/CREDITELIGIBILITY-test-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxws-tools-2.1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxws-tools-2.1.3/jaxws-tools-2.1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-cli-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-cli-1.2/commons-cli-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-jaxbri-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-jaxbri-1.6.2/axis2-jaxbri-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-4.2.5.RELEASE/spring-expression-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-portlet-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-portlet-4.2.5.RELEASE/spring-webmvc-portlet-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-resolver-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xml-resolver-1.2/xml-resolver-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-ant-plugin-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-ant-plugin-1.6.2/axis2-ant-plugin-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="regexp-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/regexp-1.2/regexp-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-4.2.5.RELEASE/spring-aop-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-codegen-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-codegen-1.6.2/axis2-codegen-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-instrument-tomcat-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-instrument-tomcat-4.2.5.RELEASE/spring-instrument-tomcat-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ChotaCreditEligibilitySoapService-test-client.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ChotaCreditEligibilitySoapService-test-client/ChotaCreditEligibilitySoapService-test-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation-1.1/activation-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-4.2.5.RELEASE/spring-core-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wstx-asl-3.2.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/wstx-asl-3.2.9/wstx-asl-3.2.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-json-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-json-1.6.2/axis2-json-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axiom-impl-1.2.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axiom-impl-1.2.13/axiom-impl-1.2.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-api-2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxb-api-2.1/jaxb-api-2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xalan-2.7.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xalan-2.7.0/xalan-2.7.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="woden-impl-commons-1.0M9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/woden-impl-commons-1.0M9/woden-impl-commons-1.0M9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Eai_Ivr_Interface-test-client.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/Eai_Ivr_Interface-test-client/Eai_Ivr_Interface-test-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-clustering-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-clustering-1.6.2/axis2-clustering-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.15/log4j-1.2.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-xjc-2.1.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxb-xjc-2.1.7/jaxb-xjc-2.1.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="getActiveService-test-client.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/getActiveService-test-client/getActiveService-test-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-transport-local-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-transport-local-1.6.2/axis2-transport-local-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mex-1.6.2-impl.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mex-1.6.2-impl/mex-1.6.2-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-1.4/commons-io-1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-jaxws_2.2_spec-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/geronimo-jaxws_2.2_spec-1.0/geronimo-jaxws_2.2_spec-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-stax-api_1.0_spec-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/geronimo-stax-api_1.0_spec-1.0.1/geronimo-stax-api_1.0_spec-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="XBeans-packaged.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/XBeans-packaged/XBeans-packaged">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-jibx-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-jibx-1.6.2/axis2-jibx-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-corba-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-corba-1.6.2/axis2-corba-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="woden-impl-dom-1.0M9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/woden-impl-dom-1.0M9/woden-impl-dom-1.0M9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxen-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxen-1.1.1/jaxen-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-4.2.5.RELEASE/spring-beans-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.1/commons-logging-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-saaj-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-saaj-1.6.2/axis2-saaj-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.7/antlr-2.7.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-soapmonitor-servlet-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-soapmonitor-servlet-1.6.2/axis2-soapmonitor-servlet-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-adb-codegen-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-adb-codegen-1.6.2/axis2-adb-codegen-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-kernel-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-kernel-1.6.2/axis2-kernel-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wsdl4j-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/wsdl4j-1.6.2/wsdl4j-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-mtompolicy-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-mtompolicy-1.6.2/axis2-mtompolicy-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="neethi-3.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/neethi-3.0.2/neethi-3.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="geronimo-ws-metadata_2.0_spec-1.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/geronimo-ws-metadata_2.0_spec-1.1.2/geronimo-ws-metadata_2.0_spec-1.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jibx-run-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jibx-run-1.2/jibx-run-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-codec-1.3/commons-codec-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-transport-http-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-transport-http-1.6.2/axis2-transport-http-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servlet-api/servlet-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-support-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-support-4.2.5.RELEASE/spring-context-support-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail-1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail-1.4/mail-1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-httpclient-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-httpclient-3.1/commons-httpclient-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-web-4.2.5.RELEASE/spring-web-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="XmlSchema-1.4.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/XmlSchema-1.4.7/XmlSchema-1.4.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bcel-5.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/bcel-5.1/bcel-5.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-adb-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-adb-1.6.2/axis2-adb-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="juli-6.0.16.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/juli-6.0.16/juli-6.0.16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-4.2.5.RELEASE/spring-webmvc-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-impl-2.1.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxb-impl-2.1.7/jaxb-impl-2.1.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jibx-bind-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jibx-bind-1.2/jibx-bind-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="woden-api-1.0M9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/woden-api-1.0M9/woden-api-1.0M9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-fastinfoset-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-fastinfoset-1.6.2/axis2-fastinfoset-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-java2wsdl-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-java2wsdl-1.6.2/axis2-java2wsdl-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-4.2.5.RELEASE/spring-context-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-websocket-4.2.5.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-websocket-4.2.5.RELEASE/spring-websocket-4.2.5.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr311-api-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsr311-api-1.0/jsr311-api-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-spring-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-spring-1.6.2/axis2-spring-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-jaxws-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-jaxws-1.6.2/axis2-jaxws-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis2-metadata-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis2-metadata-1.6.2/axis2-metadata-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axiom-dom-1.2.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axiom-dom-1.2.13/axiom-dom-1.2.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/ChotaCredit/build/classes"/>
+        <property name="context-root" value="ChotaCredit"/>
+    </wb-module>
+</project-modules>
